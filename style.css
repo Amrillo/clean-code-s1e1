@@ -5,43 +5,6 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.header {
-    width: 500px;
-    margin: 0 auto;
-    display: block;
-    text-align: right;
-}
-
-.header__img {
-    width: 100%;
-}
-
-.header__more-inf {
-    font-family: fantasy, cursive;
-}
-
-@media (max-width:768px) {
-    .header {
-        text-align: center;
-    }
-}
-
-.centered-main-page-element {
-    display: block;
-    width: 500px;
-    margin: 0 auto 0;
-}
-
-.task {
-    width: 56%;
-    display: inline-block;
-    flex-grow: 1
-}
-
-.task-row-wrapper {
-    display: flex;
-}
-
 ul {
     margin: 0;
     padding: 0px;
@@ -70,6 +33,39 @@ button {
 button:hover {
     color: #3a3A3a;
 }
+
+.header {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+    text-align: right;
+}
+
+.header__img {
+    width: 100%;
+}
+
+.header__more-inf {
+    font-family: fantasy, cursive;
+}
+
+.centered-main-page-element {
+    display: block;
+    width: 500px;
+    margin: 0 auto 0;
+}
+
+.task {
+    width: 56%;
+    display: inline-block;
+    flex-grow: 1
+}
+
+.task-row-wrapper {
+    display: flex;
+}
+
+
 /* Heading */
 h3,
 label[for='new-task'] {
@@ -166,4 +162,10 @@ ul li.editMode input[type=text] {
 
 ul li.editMode label {
     display: none;
+}
+
+@media (max-width:768px) {
+    .header {
+        text-align: center;
+    }
 }
