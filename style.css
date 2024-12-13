@@ -100,7 +100,7 @@ button:hover {
     width: 318px;
 }
 /* Task list */
-li {
+.list__item {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -109,7 +109,7 @@ li {
     align-items: center;
 }
 
-li>* {
+.list__item > * {
     vertical-align: middle;
 }
 
@@ -117,7 +117,7 @@ li>input[type="checkbox"] {
     margin: 0 10px;
 }
 
-li>label {
+.list__item-label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
