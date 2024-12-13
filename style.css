@@ -69,13 +69,11 @@ button:hover {
     display: flex;
 }
 
-.additem__task-input {
+.additem__task-input, 
+.list__item-input {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
-}
-
-input[type="text"] {
+    flex-grow: 1;
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -88,7 +86,8 @@ input[type="text"] {
     color: #888;
 }
 
-input[type="text"]:focus {
+.additem__task-input:focus,
+.list__item-input:focus {
     color: #333;
 }
 /* New Task */
@@ -125,7 +124,7 @@ li>label {
     width: 226px;
 }
 
-li>input[type="text"] {
+.list__item-input {
     width: 226px;
 }
 
@@ -145,11 +144,11 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.list__item-input {
     display: none;
 }
 
-ul li.editMode input[type=text] {
+.editmode-input {
     display: inline-block;
     width: 224px;
 }
