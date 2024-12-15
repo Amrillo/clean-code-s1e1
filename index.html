@@ -6,18 +6,20 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">   <!--class aaa -->  
+    <header class="header">
         <img class="header__img" src="./eisenhower-matrix.jpg" alt="scheme-img">
         <a class="headermore-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>   <!--class more_inf -->  
     </header>
     <main class="main">
         <section id="topSectionForAddingElementToList" class="additem">
-          <label for="new-task" class="section-title additem__title">Add Item</label>
-          <div class="additem__task">  <!--class aaa task-row-wrapper-->  
+          <label 
+            for="new-task" 
+            class="section-title additem__title">Add Item</label>
+          <div class="additem__task">
             <input 
               id="new-task" 
               class="additem__task-input" 
-              type="text"> <!--class aaa task-->  
+              type="text"> 
             <button class="additem__task-btn">Add</button>
           </div>
         </section>
@@ -26,10 +28,12 @@
             <ul id="incompleteTasks" class="list">
               <li class="list__item">
                 <input type="checkbox" class="list__item-checkbox">
-                <label class="list__item-label incomplite-label">Pay Bills</label>  <!--class aaa task-->  
-                <input type="text" class="list__item-input editmode-input"> <!--class aaa task-->  
-                <button class="list__item-btn-edit">Edit</button>  <!--class edit--> 
-                <button class="list__item-btn-delete">   <!--class delete--> 
+                <label class="list__item-label label-editmode">Pay Bills</label> 
+                <input 
+                  type="text" 
+                  class="list__item-input editmode-input">
+                <button class="list__item-btn-edit">Edit</button>
+                <button class="list__item-btn-delete">
                   <img 
                     class="last__item-img"  
                     src="./remove.svg" 
@@ -44,9 +48,9 @@
                 <input 
                   type="text" 
                   value="Go Shopping" 
-                  class="list__item-input list-input">
+                  class="list__item-input editmode-input">
                 <button class="list__item-btn-edit">Save</button>
-                <button class="list__item-btn-delete">  <!--class delete--> 
+                <button class="list__item-btn-delete">
                   <img 
                     class="last__item-img" 
                     src="./remove.svg" 
@@ -63,8 +67,10 @@
                   type="checkbox" 
                   checked
                   class="list__item-checkbox">
-                <label class="list__item-label completedtask__label">See the Doctor</label>
-                <input type="text" class="list__item-input list-input">
+                <label class="list__item-label label-editmode completedtask__label">See the Doctor</label>
+                <input 
+                  type="text" 
+                  class="list__item-input editmode-input">
                 <button class="list__item-btn-edit">Edit</button>
                 <button class="list__item-btn-delete">
                     <img 
