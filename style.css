@@ -71,9 +71,6 @@ button:hover {
 
 .additem__task-input, 
 .list__item-input {
-    width: 56%;
-    display: inline-block;
-    flex-grow: 1;
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -85,6 +82,13 @@ button:hover {
     font-family: Lato, sans-serif;
     color: #888;
 }
+
+.list__item-input,
+.list__item-label {  
+    width: 56%;
+    display: inline-block;
+    flex-grow: 1;
+} 
 
 .additem__task-input:focus,
 .list__item-input:focus {
