@@ -25,8 +25,8 @@
             <h3 class="section-title">Todo</h3>
             <ul id="incompleteTasks" class="list">
               <li class="list__item">
-                <input type="checkbox" id="checkbox1" class="list__item-checkbox">
-                <label class="list__item-label incomplite-label" for="checkbox1">Pay Bills</label>  <!--class aaa task-->  
+                <input type="checkbox" class="list__item-checkbox">
+                <label class="list__item-label incomplite-label">Pay Bills</label>  <!--class aaa task-->  
                 <input type="text" class="list__item-input editmode-input"> <!--class aaa task-->  
                 <button class="list__item-btn-edit">Edit</button>  <!--class edit--> 
                 <button class="list__item-btn-delete">   <!--class delete--> 
@@ -36,12 +36,11 @@
                     alt="close-icon">
                 </button>
               </li>
-              <li class="list__item">
+              <li class="list__item editmode">
                 <input 
                   type="checkbox" 
-                  id="checkbox2" 
                   class="list__item-checkbox">
-                <label class="list__item-label label-editmode" for="checkbox2">Go Shopping</label>
+                <label class="list__item-label label-editmode">Go Shopping</label>
                 <input 
                   type="text" 
                   value="Go Shopping" 
@@ -62,9 +61,9 @@
               <li class="list__item">
                 <input 
                   type="checkbox" 
-                  checked id="checkbox3" 
+                  checked
                   class="list__item-checkbox">
-                <label class="list__item-label completedtask__label" for="checkbox3">See the Doctor</label>
+                <label class="list__item-label completedtask__label">See the Doctor</label>
                 <input type="text" class="list__item-input list-input">
                 <button class="list__item-btn-edit">Edit</button>
                 <button class="list__item-btn-delete">

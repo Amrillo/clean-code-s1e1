@@ -148,12 +148,12 @@ button:hover {
     display: none;
 }
 
-.editmode-input {
+.editmode .editmode-input {
     display: inline-block;
     width: 224px;
 }
 
-.label-editmode {
+.editmode .label-editmode {
     display: none;
 }
 
