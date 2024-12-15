@@ -84,7 +84,8 @@ button:hover {
 }
 
 .list__item-input,
-.list__item-label {  
+.list__item-label,
+.additem__task-input {  
     width: 56%;
     display: inline-block;
     flex-grow: 1;
