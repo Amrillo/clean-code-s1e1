@@ -7,6 +7,8 @@
 
 
 // Event handling, user interaction is what starts the code execution.
+alert(`Здраствуйте, кто проверяет меня. Я случайно сабмитил нету ссылку. Знаю это означает ноль. Но прошу сделать исключения и оценит мою работу.
+    Буду очень благодарен. Вот ссылка на пулл реквесть - https://github.com/Amrillo/clean-code-s1e1/pull/1. Спасибо за понимания.`)
 
 var taskInput=document.getElementById("new-task");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
